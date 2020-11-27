@@ -3,7 +3,12 @@ body {
     padding: 0;
     font-family:  "Palatino Linotype", "Book Antiqua", Palatino, serif;;
 }
-
+.jumbotron {
+    margin-bottom: 0;
+}
+#navbarToggler{
+    color: white;
+}
 #la_map {
 
     width: 400px;
@@ -33,6 +38,10 @@ font-variant: normal;
 text-transform: none;
 }
 
+.navbar {
+    margin-bottom: 2em;
+}
+
 #content_image {
     
     width: 65%;
@@ -55,7 +64,8 @@ tbody {
 
   }
 
-  .header{
+.header{
     position:sticky;
     top: 0 ;
+    margin-bottom: 2em;
 }
