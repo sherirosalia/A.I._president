@@ -18,10 +18,34 @@
 
     <div class="jumbotron sticky-top bg-dark text-white">
         <h1>A.I. President</h1>            
-        <p class="lead text-white">Can machines tweet like Trump?</p> 
+        <p class="lead text-white">Can machine learning tweet like Trump?</p> 
         <p class="lead text-white"></p>              
     </div>
         <!-- end of jumbotron and beginning of content container -->
+        <nav class="navbar navbar-expand-md bg-dark text-white fixed-top bg-light mb-3">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html" style='color:white'>HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../index.html" id="navbarDropdownMenuLink" style='color:white' data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TABLES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="pages/tweet_table.html">Trump Tweets</a>
+                        <a class="dropdown-item" href="pages/package_table.html" >Markovify Package</a>
+                        <a class="dropdown-item" href="pages/custom_script_table.html" >Markov Custom Script</a>
+                    </div>
+                </li>
+               
+            </ul>
+            </div>
+        </nav>
 
     <div class="container">
             <!-- beginning of intro -->
@@ -29,30 +53,79 @@
             <div class="row">
                 
                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <h2>Mirror mirror on the wall, who is the most famous tweeter in the world?</h2>
+                    <h2>A tale of tweets and two Markov chains</h2>
                     <p>
                         Stoatistic algorithms and natural language processin appleid to a trump twiterator.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt vel eius iure nobis explicabo perspiciatis fuga error doloribus dolor.
+                         Modi aspernatur necessitatibus sequi excepturi? Eius molestiae labore cum vero! Sit?
                     </p>
 
                 </div>
             </div>
         </div>
+    </div> 
 
-        <!-- end of first introduction  -->
-                <!-- beginning of container for national image -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <figure>
-                            <img src="images/white_rose.jpg" class="mx-auto d-block img-fluid figure-image" alt="nationwide">
-                            <figcaption class="figure-caption">Sample representation of rose</figcaption>
-                            </figure>
-                        </div>
+    <!-- end of first introduction  -->
+            <!-- beginning of container for typewriter image -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <figure>
+                            <img src="images/debby-hudson-typewriter_small.png" class="mx-auto d-block img-fluid figure-image" alt="nationwide" id="content_image">
+                            <figcaption class="figure-caption" id='first_caption'>Tweets, the oldfashioned way.</figcaption>
+                        </figure>
                     </div>
                 </div>
-                <!-- end of national image -->
+            </div>
+            <!-- end of typewriter image -->
 
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <!-- explanation/intro -->
+                        <h2>Markovfy package generated tweets</h2>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Numquam quaerat laboriosam in, temporibus libero repellendus hic dolorem, natus, omnis voluptatem asperiores. 
+                            Nostrum fuga veniam eos id assumenda facere a. Perferendis.
+                        </p>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+            8
+
+<!-- <table id="table1" class="display"> </table>
+<table id="table2" class="display"> </table>
+<table id="table3" class="display"> </table> -->
+
+        <div class="container" id=table>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <table id="tweets" class="table table-striped">
+                        <thead>
+                            <tr>
+                               
+                                <th class="table-head">Tweets generated by Trump</th>
+                            </tr>
+                        </thead>
+                        <tbody id='trump'></tbody>
+                    </table>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        <!-- end of intro area container -->
+
+        <!-- end of intro area container -->
+               
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
@@ -64,48 +137,31 @@
                     </p>
 
                     <p> GitHub repository:  
-                    <a href='https://github.com/sherirosalia/A.I._president'>Cash for Covid, Clean Machine</a>.
+                    <a href='https://github.com/sherirosalia/A.I._president'>A.I. President</a>.
                     </p>
                     
                 </div>
             </div>
+        </div>
 
+<!-- youtube embed -->
+
+        <div class="container">
             <div class="row">
+
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                    <table id="tweets" class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th class="table-head">Twitterator</th>
-                            </tr>
-                        </thead>
-                        <tbody></tbody>
-                    </table>
-                </div>
-                <div class="col-md-2"></div>
-            </div>
-        </div>
-        <!-- end of intro area container -->
-               
-
-
-
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
                     <h2>Scraping the data</h2>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/bUhKnkkoX9c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
 
-        <!-- end of intro to banks -->
+        <!-- end of youtube embed -->
 
-                <!-- end of bank graph image -->
+
 
                 <div class="container">
                     <div class="row">
@@ -137,8 +193,6 @@
 
 
 
-
-    </div> 
  <!-- end of main content div -->
     <footer class="bg-dark text-white page-footer ">
         <div class="text-center py-3">
@@ -157,7 +211,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
     <script src="data.js"></script>
-    <script src="dom.js"></script>
+    <script src="pdata.js"></script>
   </body>
 </html>
 
