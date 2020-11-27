@@ -60,11 +60,13 @@ text-transform: none;
 }​ 
 
 tbody {
-    display:block;
+    display:none;
+    /* z-index: unset; */
 
   }
 
 .header{
+    
     position:sticky;
     top: 0 ;
     margin-bottom: 2em;
