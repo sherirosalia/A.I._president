@@ -64,9 +64,12 @@
                     </p>
                     <p>
                         Curious as to whether or not machine learning would be able to mimic natural language, it seeemed
-                        like twitter and one of it's iconic members could be a great source of source data. Approximately 50 pages of 
-                        tweets along with the application of two different programming scripts in an attempt to analyze and mimic 
-                        President Trumps tweets produced fairly succssful and sometimes hilarious results. 
+                        like Twitter and one of it's iconic members could be a great source of source data. In pursuit of the 
+                        answer, 
+                        approximately 50 pages of 
+                        tweets were extracted and processed in an attempt to analyze and mimic 
+                        President Trumps writing style. You are cordially invited to judge the sometimes hilarious results for yourself as to whether or not
+                        machine learning was able to acheive this feat. 
                         
                     </p>
 
@@ -98,11 +101,11 @@
 
                         <p>
                         Why copy and paste when the computer can do it for us? The video below 
-                        shows how a browser can be automated to scroll through Twitter. The entire process 
-                        of scrolling through recent history took about 20 minutes and in the background 
-                        the script was making choices as to what information to keep and which posts to skip.
+                        shows how a programming script was used to automate a browser to scroll through Trump's Twitter history and 
+                        simultaneously extract and store the text. The entire process 
+                        took about 20 minutes and all the while was making choices as to what information to keep and which posts to ignore.
                         For example, the decision was made to skip over re-tweets. For those who are unfamiliar with Twitter, "re-tweets" are usually recycled 
-                        posts from other users and can therefore dilute what could be attributed to the President.
+                        posts from other users and processing them would dilute what could be attributed to the President.
                            
                         </p>
 
@@ -133,9 +136,9 @@
                     <h2>The real tweets</h2>
 
                     <p>
-                        Roughly 200 of President Trumps tweets were extracted from about 50 pages of tweet history and 
-                        a few of them are displayed in the screenshot below. The full results of <a href='pages/tweet_table.html'>the Trump tweets are linked here</a> 
-                        or in the navigation bar above.
+                        Roughly 200 of President Trumps tweets from October, 2020 were extracted from approximately 50 pages of tweet history and 
+                        a few of them are displayed in the screenshot below. The full results of <a href='pages/tweet_table.html'> the genuine Trump tweets are linked here</a> 
+                        and also in the navigation bar above.
 
                         
                     </p>
@@ -171,10 +174,11 @@
                     <h2>Putting the data through an analysis library</h2>
 
                     <p>
-                        A Markov Chain breaks analyzes word frequencies and patterns to assess likely 
-                        word orders. The first step was to run the data from twitter through an "off the shelf" 
-                        natural language processing package called "Markovify" which provided a convenient way to 
-                        assess the likelihood of successful imitation. Check out the screenshot below and/or 
+                        A Markov chain breaks sentences into smaller chunks, analyzes word frequencies and patterns to assess and 
+                        regugitate likely 
+                        word sequences. The first step was to run the data from twitter through an "off the shelf" 
+                        natural language processing package called "Markovify" which provides a convenient way to 
+                        assess the likelihood of being successful. Check out the screenshot below and/or view
                         <a href='pages/package_table.html'>the table of full results. </a>                      
                     </p>
 
@@ -206,9 +210,9 @@
                         <h2>Custom algorithm </h2>
     
                         <p>
-                            The next step was to create a custom Markov Chain script to compare the results with the 
-                            and in the end, both procesees generated tweets with a Trump-like flavor with a slap-stick style 
-                            humor. Check out the final results of the custom script here: 
+                            Taking the project to the next level meant creating a custom script to employ a Markov chain script and compare the results with the 
+                            Markovify results. Both procesees generated tweets with a Trump-like flavor and perhaps oddly,a slap-stick style 
+                            humor. The final results of the custom script are here: 
                             <a href='pages/custom_script_table.html'>the table of full results</a>.                     
                         </p>
     
@@ -260,9 +264,12 @@
                             <h2>The next step</h2>
                             
                             <p>If the project was to be developed further, more data is the first step I would take as the results were almost 
-                                "too good", especially for the markovify package results. Additonally, the custom 
+                                "too good". This is especially for the Markovify package results which were almost hard to differentiate from 
+                                the genuine tweets sometimes. This suggests the possibility that there was not enough information to make a mistake as it were.
+                                Therefore, one way to test to that the scripts are truly working would be to 
+                                process a much larger dataset. Additonally, the custom 
                                 script would benefit from some conditional clauses to normalize the results. For example, 
-                                the custom script results had quite a few stray characters that were not produced using the Python natural 
+                                the custom script results had quite a few stray characters that were not produced using the Markovify package from the Python natural 
                                 language processing library.
                             </p>
 
