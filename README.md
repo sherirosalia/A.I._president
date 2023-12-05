@@ -4,6 +4,9 @@ Machine learning applied to generate tweets based on data scraped from Twitter.
 ## Webpage
 Results of the project are hosted in GitHub pages: <a href='https://sherirosalia.github.io/A.I._president/'>A.I. President</a>
 
+## Custom Script Tweets
+
+![](docs/images/mark_custom.png)
 ## M.L. Generated Tweets
 
 ![](docs/images/package_tweet.png)
