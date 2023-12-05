@@ -23,15 +23,7 @@ Results of the project are hosted in GitHub pages: <a href='https://sherirosalia
 ## Deployment
 The core files are in the python folder which contains both Jupyter notebooks and stand alone scripts. Note that Twitter changes the site regularly so selectors will likely need to be updated for the webscrping code to work. File paths will also need to be adjusted.
 
+## M.L. Generated Tweets
 
-## Credit for "tweet tweet" photo
-<span>Photo by <a href="https://unsplash.com/@chrisjdavis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chris J. Davis</a> on <a href="https://unsplash.com/s/photos/tweet?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+![](docs/images/package_tweet.png)
 
-![](docs/images/chris-j-davis-tweet_tweet_small.jpeg)
-
-
-
-## Credit for typewriter photo
-<span>Photo by <a href="https://unsplash.com/@hudsoncrafted?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Debby Hudson</a> on <a href="https://unsplash.com/s/photos/typewriter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
-![](docs/images/debby-hudson-typewriter_small.png)
