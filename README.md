@@ -7,7 +7,7 @@ Results of the project are hosted in GitHub pages: <a href='https://sherirosalia
 ## Custom Script Tweets
 
 ![](docs/images/mark_custom.png)
-## M.L. Generated Tweets
+## Markovify Script Generated Tweets
 
 ![](docs/images/package_tweet.png)
 
