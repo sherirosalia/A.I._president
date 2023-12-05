@@ -1,5 +1,5 @@
 # A.I._president
-Machine learning applied to generate tweets based on data scraped from Twitter..
+Machine learning applied to generate tweets based on data scraped from Twitter.
 
 ## Webpage
 Results of the project are hosted in GitHub pages: <a href='https://sherirosalia.github.io/A.I._president/'>A.I. President</a>
