@@ -11,7 +11,7 @@ Results of the project are hosted in GitHub pages: <a href='https://sherirosalia
 
 ![](docs/images/package_tweet.png)
 
-## Folder structure
+### Folder structure
 - docs holds html, css, image, javascript and json files for display site
 - python folder contains scraping, file conversion and markov chain scripts
 - initial data from webscraping is in data folder
